@@ -17,6 +17,14 @@
   width: 150px;
 }
 
+.app__navbar-smallscreen-links li {
+  margin: 2rem;
+  color: var(--color-golden);
+  font-size: 2rem;
+  text-align: center;
+  font-family: var(--font-base);
+}
+
 .app__navbar-links {
   display: flex;
   justify-content: center;
@@ -55,14 +63,6 @@
   position: absolute;
   top: 20px;
   right: 20px;
-}
-
-.app__navbar-smallscreen-links li {
-  margin: 2rem;
-  color: var(--color-golden);
-  font-size: 2rem;
-  text-align: center;
-  font-family: var(--font-base);
 }
 
 .app__navbar-smallscreen-links {
