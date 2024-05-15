@@ -1,8 +1,8 @@
 import React from 'react'
 import {GiHambourgerMenu} from 'react-icons/gi';
 import {MdOutlineRestaurentMenu} from 'react-icons/md';
-import logo from '../../assets/logo.png'
-import './Navbar.css'
+import logo from '../../assets/logo.png';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#home">Home</a></li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar
