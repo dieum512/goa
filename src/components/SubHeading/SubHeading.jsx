@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import spoon from '../../assets/spoon.svg';
 
 const SubHeading = ({ title }) => (
@@ -7,5 +8,9 @@ const SubHeading = ({ title }) => (
     <img src={spoon} alt="spon" className="spoon__img" />
   </div>
 );
+
+SubHeading.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 
 export default SubHeading;
