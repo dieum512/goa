@@ -10,8 +10,8 @@ const Header = () => (
       <div className="app__wrapper_info">
         <SubHeading title="Bâtir l'avenir ensemble" />
         <h1 className="app__header-h1">Transformer les visions en réalité</h1>
-        <p className="p__opensans" style={{ margin: '2rem 0' }}> Nous sommes une entreprise de construction spécialisée dans la concrétisation de vos projets, quels qu'ils soient.</p>
-        <button className="custom__button">Nous contacter</button>
+        <p className="p__opensans" style={{ margin: '2rem 0' }}> Nous sommes une entreprise de construction spécialisée dans la concrétisation de vos projets, quels qui&apos;ls soient.</p>
+        <a href="#contact" className="custom__button">Nous contacter</a>
       </div>
 
       <div className="app__wrapper_img">
