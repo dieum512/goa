@@ -1,0 +1,25 @@
+.app_header_2 {
+  background: url(../../assets/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.app__header {
+  background: var(--color-black);
+  opacity: 0.9;
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 80px;
+}
+
+.app__header-img img {
+  width: 80%;
+  z-index: 999;
+}
