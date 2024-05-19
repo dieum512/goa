@@ -2,6 +2,7 @@ import React from 'react'
 import G from '../../assets/G.png'
 import Spoon from '../../assets/spoon.svg'
 import Trowel from '../../assets/trowel.png'
+import './AboutUs.css'
 
 const AboutUs = () => {
   return (
