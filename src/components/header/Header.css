@@ -1,5 +1,5 @@
 .app_header_2 {
-  background: url(../../assets/bg1.jpg);
+  background: url(../../assets/bg1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -7,7 +7,7 @@
 
 .app__header {
   background: var(--color-black);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .app__header-h1 {
