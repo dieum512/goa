@@ -38,9 +38,6 @@
 }
 
 @media screen and (max-width: 650px) {
-  .app_header_2 {
-    background-position: bottom right;
-  }
 
   .app__header-h1 {
     font-size: 70px;
