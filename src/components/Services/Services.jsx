@@ -1,6 +1,6 @@
 import React from 'react';
 
-import data from '../../constants'
+// import data from '../../constants'
 
 const Services = () => {
   return (
