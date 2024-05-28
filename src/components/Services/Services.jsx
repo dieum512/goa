@@ -4,7 +4,7 @@ import SubHeading from '../SubHeading/SubHeading'
 
 const Services = () => {
   return (
-    <div>
+    <div className="app__specialMenu flex__center section__padding" id='services'>
       
     </div>
   )
