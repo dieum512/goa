@@ -32,4 +32,4 @@ const rightDetails = [
     },
 ];
 
-export default {leftDetails, rightDetails}
+export default leftDetails;

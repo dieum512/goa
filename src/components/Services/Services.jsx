@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-// import data from '../../constants'
+import SubHeading from '../SubHeading/SubHeading'
 
 const Services = () => {
   return (
