@@ -1,4 +1,4 @@
-const leftDetails = [
+export const leftDetails = [
     {
         title: 'Architecture',
         description: 'Conception des plans et planification des structures innovantes et esthetiques...',
@@ -17,7 +17,7 @@ const leftDetails = [
     },
 ];
 
-const rightDetails = [
+export const rightDetails = [
     {
         title: `Electricite`,
         description: `Installation et maintenance de systemes electriques...`
@@ -31,5 +31,3 @@ const rightDetails = [
         description: `Conception et la mise en place de systemes d'assainissement`,
     },
 ];
-
-export default {leftDetails, rightDetails};
