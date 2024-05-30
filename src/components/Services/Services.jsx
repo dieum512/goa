@@ -16,7 +16,7 @@ const Services = () => {
 
       <div className="app__specialMenu-menu">
         <div className="app__specialMenu-menu_wine flex__center">
-          <p className='app__specialMenu-menu_heading'>What we do</p>
+          <h4 className='app__specialMenu-menu_heading'>Nos services</h4>
           <div className="app__specialMenu-menu_items">
             {leftDetails.map((service, index) => (
               // <p>{service.title}</p>
@@ -30,7 +30,7 @@ const Services = () => {
         </div>
 
         <div className="app__specialMenu-menu_cocktails flex__center">
-          <p className='app__specialMenu-menu_heading'>What we do</p>
+          <h4 className='app__specialMenu-menu_heading'>Nos champs d'action</h4>
           <div className="app__specialMenu-menu_items">
             {rightDetails.map((service, index) => (
               <MenuItem key={service.title + index} title={service.title} galery={service.galery} description={service.description}/>
