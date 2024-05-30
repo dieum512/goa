@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './MenuItem.css';
 
 const MenuItem = ({ title, galery, description }) => (
@@ -18,4 +19,10 @@ const MenuItem = ({ title, galery, description }) => (
     </div>
   </div>
 );
+
+MenuItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  galery: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 export default MenuItem;
