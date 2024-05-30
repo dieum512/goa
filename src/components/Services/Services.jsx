@@ -19,7 +19,6 @@ const Services = () => {
           <h4 className='app__specialMenu-menu_heading'>Nos services</h4>
           <div className="app__specialMenu-menu_items">
             {leftDetails.map((service, index) => (
-              // <p>{service.title}</p>
               <MenuItem key={service.title + index} title={service.title} galery={service.galery} description={service.description}/>
             ))}
           </div>
