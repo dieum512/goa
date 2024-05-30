@@ -1,17 +1,17 @@
 export const leftDetails = [
     {
         title: 'Immobiliers',
-        description: `Gestion et conseil pour faciliter l'achat, la vente ou la location de biens immobiliers`,
+        description: `Gestion et conseil pour faciliter vos transactions immobilières (achat, vente, location)`,
         galery: 'Images',
     },
     {
-        title: 'Batiments et travaux publics',
-        description: `Construcyions et entretiens des infractutures telles que des routes, de ponts, des barrages...`,
+        title: 'Bâtiments et travaux publics',
+        description: `Constructions et entretiens des infrastructures telles que routes, ponts et barrages`,
         galery: 'Images',
     },
     {
-        title: 'Vente de materiaux de construction',
-        description: `fourniture et livraison de materiaux de construction de haute qualite..`,
+        title: 'Vente de matériaux de construction',
+        description: `Fourniture et livraison de matériaux de construction de haute qualité`,
         galery: 'Images',
     },
 ];
@@ -19,22 +19,22 @@ export const leftDetails = [
 export const rightDetails = [
     {
         title: 'Architecture',
-        description: 'Conception des plans et planification des structures innovantes et esthetiques...',
+        description: 'Conception de plans et planification de structures innovantes et esthétiques',
         galery: 'Images',
     },
     {
-        title: `Electricite`,
-        description: `Installation et maintenance de systemes electriques...`,
+        title: `Électricité`,
+        description: `Installation et maintenance de systèmes électriques`,
         galery: 'Images',
     },
     {
         title: `Plomberie`,
-        description: `Installation, reparation et entretien de systemes de plomberie`,
+        description: `Installation, réparation et entretien de systèmes de plomberie`,
         galery: 'Images',
     },
     {
         title: `Assainissement urbain`,
-        description: `Conception et la mise en place de systemes d'assainissement`,
+        description: `Conception et mise en place de systèmes d'assainissement`,
         galery: 'Images',
     },
 ];
