@@ -1,13 +1,14 @@
 .app_header_2 {
-  background: url(../../assets/bg1.jpg);
+  background: url(../../assets/bg1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .app__header {
   background: var(--color-black);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .app__header-h1 {
@@ -38,10 +39,6 @@
 }
 
 @media screen and (max-width: 650px) {
-  .app_header_2 {
-    background-position: bottom right;
-  }
-
   .app__header-h1 {
     font-size: 70px;
     line-height: 87px;
