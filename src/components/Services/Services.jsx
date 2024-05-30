@@ -17,8 +17,13 @@ const Services = () => (
       <div className="app__specialMenu-menu_wine flex__center">
         <h4 className="app__specialMenu-menu_heading">Nos prestations</h4>
         <div className="app__specialMenu-menu_items">
-          {leftDetails.map((service, index) => (
-            <MenuItem key={service.title + index} title={service.title} galery={service.galery} description={service.description} />
+          {leftDetails.map((service) => (
+            <MenuItem
+              key={service.id}
+              title={service.title}
+              galery={service.galery}
+              description={service.description}
+            />
           ))}
         </div>
       </div>
@@ -28,10 +33,15 @@ const Services = () => (
       </div>
 
       <div className="app__specialMenu-menu_cocktails flex__center">
-        <h4 className="app__specialMenu-menu_heading">Nos champs d'action</h4>
+        <h4 className="app__specialMenu-menu_heading">Nos champs d&apos;action</h4>
         <div className="app__specialMenu-menu_items">
-          {rightDetails.map((service, index) => (
-            <MenuItem key={service.title + index} title={service.title} galery={service.galery} description={service.description} />
+          {rightDetails.map((service) => (
+            <MenuItem
+              key={service.id}
+              title={service.title}
+              galery={service.galery}
+              description={service.description}
+            />
           ))}
         </div>
       </div>
