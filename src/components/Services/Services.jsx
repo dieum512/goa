@@ -10,13 +10,13 @@ const Services = () => {
   return (
     <div className="app__specialMenu flex__center section__padding" id='services'>
       <div className="app__specialMenu-title">
-        <SubHeading title='Services that fit your need'/>
+        <SubHeading title='Services adaptés à vos besoins'/>
         <h1 className="headtext__cormorant">Nos services</h1>
       </div>
 
       <div className="app__specialMenu-menu">
         <div className="app__specialMenu-menu_wine flex__center">
-          <h4 className='app__specialMenu-menu_heading'>Nos services</h4>
+          <h4 className='app__specialMenu-menu_heading'>Nos prestations</h4>
           <div className="app__specialMenu-menu_items">
             {leftDetails.map((service, index) => (
               <MenuItem key={service.title + index} title={service.title} galery={service.galery} description={service.description}/>
