@@ -21,7 +21,7 @@
     flex: 1;
 }
 
-/* .app__menuitem-dash {
+.app__menuitem-dash {
     width: 90px;
     height: 1px;
     background: var(--color-golden);
@@ -32,4 +32,4 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-} */
+}
