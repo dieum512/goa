@@ -10,7 +10,7 @@ const App = () => (
     <Navbar />
     <Header />
     <AboutUs />
-    <Services/>
+    <Services />
   </div>
 );
 

@@ -1,5 +1,5 @@
-import React from 'react'
-import './MenuItem.css'
+import React from 'react';
+import './MenuItem.css';
 
 const MenuItem = ({ title, galery, description }) => (
   <div className="app__menuitem">
@@ -9,7 +9,7 @@ const MenuItem = ({ title, galery, description }) => (
       </div>
       <div className="app__menuitem-dash" />
       <div className="app__menuitem-price">
-        <a href='#home' className="custom__button">{galery}</a>
+        <a href="#home" className="custom__button">{galery}</a>
       </div>
     </div>
 
@@ -17,5 +17,5 @@ const MenuItem = ({ title, galery, description }) => (
       <p className="p__opensans" style={{ color: '#AAAAAA' }}>{description}</p>
     </div>
   </div>
-)
-export default MenuItem
+);
+export default MenuItem;
