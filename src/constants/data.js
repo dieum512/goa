@@ -1,10 +1,5 @@
 export const leftDetails = [
     {
-        title: 'Architecture',
-        description: 'Conception des plans et planification des structures innovantes et esthetiques...',
-        galery: 'Images',
-    },
-    {
         title: 'Immobiliers',
         description: `Gestion et conseil pour faciliter l'achat, la vente ou la location de biens immobiliers`,
         galery: 'Images',
@@ -22,6 +17,11 @@ export const leftDetails = [
 ];
 
 export const rightDetails = [
+    {
+        title: 'Architecture',
+        description: 'Conception des plans et planification des structures innovantes et esthetiques...',
+        galery: 'Images',
+    },
     {
         title: `Electricite`,
         description: `Installation et maintenance de systemes electriques...`,
