@@ -7,6 +7,7 @@ import servicesImage from '../../assets/services.png';
 import './Services.css';
 
 const Services = () => (
+  <div className="services__bg">
   <div className="app__specialMenu flex__center section__padding" id="services">
     <div className="app__specialMenu-title">
       <SubHeading title="Services adaptés à vos besoins" />
@@ -50,6 +51,7 @@ const Services = () => (
     <div style={{ marginTop: '15px' }}>
       <a href="#home" className="custom__button">Échangeons</a>
     </div>
+  </div>
   </div>
 );
 
