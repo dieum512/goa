@@ -3,7 +3,7 @@ import './Gallery.css'
 
 const Gallery = () => {
   return (
-    <div>
+    <div className="app__gallery flex__center">
       Gallery
     </div>
   )
