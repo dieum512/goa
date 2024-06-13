@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Services from './components/Services/Services';
 import Belief from './components/Belief/Belief';
 import Gallery from './components/Gallery/Gallery';
+import FindUs from './components/FindUs/FindUs';
 import './App.css';
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
     <Services />
     <Belief />
     <Gallery />
+    <FindUs />
   </div>
 );
 
