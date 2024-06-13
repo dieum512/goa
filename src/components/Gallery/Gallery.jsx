@@ -1,11 +1,11 @@
-import React from 'react'
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
-import Gallery01 from '../../assets/gallery01.jpg'
-import Gallery02 from '../../assets/gallery02.jpg'
-import Gallery03 from '../../assets/gallery03.jpg'
-import Gallery04 from '../../assets/gallery04.jpg'
-import SubHeading from '../SubHeading/SubHeading'
-import './Gallery.css'
+import React from 'react';
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import Gallery01 from '../../assets/gallery01.jpg';
+import Gallery02 from '../../assets/gallery02.jpg';
+import Gallery03 from '../../assets/gallery03.jpg';
+import Gallery04 from '../../assets/gallery04.jpg';
+import SubHeading from '../SubHeading/SubHeading';
+import './Gallery.css';
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -42,7 +42,7 @@ const Gallery = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Gallery
+export default Gallery;
