@@ -8,7 +8,7 @@ const FindUs = () => (
       <SubHeading title="Contact" />
       <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Trouvez-nous</h1>
       <div className="app__wrapper-content">
-        <p className="p__opensans">Goma, Kyeshero, Les enseignants, 180</p>
+        <p className="p__opensans">Ville: Goma, Quartier: Keshero, Avenue: Des enseignants, Num: 139</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Horaires d&apos;ouverture</p>
         <p className="p__opensans">Lundi: 9h - 13h</p>
         <p className="p__opensans">Mardi - Vendredi: 9h - 17h</p>
