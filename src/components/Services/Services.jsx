@@ -49,7 +49,7 @@ const Services = () => (
 
       </div>
       <div style={{ marginTop: '15px' }}>
-        <a href="#home" className="custom__button">Échangeons</a>
+        <a href="#contact" className="custom__button">Échangeons</a>
       </div>
     </div>
   </div>
