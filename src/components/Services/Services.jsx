@@ -7,7 +7,7 @@ import servicesImage from '../../assets/services.png';
 import './Services.css';
 
 const Services = () => (
-  <div className="services__bg">
+  <div className="services__bg" id="services">
     <div className="app__specialMenu flex__center section__padding" id="services">
       <div className="app__specialMenu-title">
         <SubHeading title="Services adaptés à vos besoins" />
