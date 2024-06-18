@@ -11,13 +11,13 @@ const Newsletter = () => (
       <p className="p__opensans">et nous vous répondrons dans les meilleurs délais.!</p>
     </div>
     <form action="">
-    <div className="app__newsletter-input flex__center">
-      
+      <div className="app__newsletter-input flex__center">
+
         <input type="email" placeholder="Indiquez votre adresse email" />
         <textarea name="message" rows="7" placeholder="Écrivez votre message ici" required />
         <button type="submit" className="custom__button">Envoyer</button>
-    </div>
-      </form>
+      </div>
+    </form>
   </div>
 );
 

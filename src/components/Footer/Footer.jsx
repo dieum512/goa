@@ -1,7 +1,7 @@
 import React from 'react';
 import Newsletter from './Newsletter';
-import Spoon from '../../assets/spoon.svg'
-import Logo from '../../assets/logo.png'
+import Spoon from '../../assets/spoon.svg';
+import Logo from '../../assets/logo.png';
 import './Footer.css';
 
 const Footer = () => (
@@ -18,8 +18,8 @@ const Footer = () => (
 
       <div className="app__footer-links_logo">
         <img src={Logo} alt="footer_logo" />
-        <p className="p__opensans">&quot;L'art de la construction, c&apos;est l&apos;art du détail.&quot;</p>
-        <img src={Spoon} className="spoon__img" style={{ marginTop: 15 }} />
+        <p className="p__opensans">&quot;L&apos;art de la construction, c&apos;est l&apos;art du détail.&quot;</p>
+        <img src={Spoon} alt="spoon" className="spoon__img" style={{ marginTop: 15 }} />
       </div>
 
       <div className="app__footer-links_work">
