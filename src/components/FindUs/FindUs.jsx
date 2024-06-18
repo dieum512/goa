@@ -13,7 +13,7 @@ const FindUs = () => (
         <p className="p__opensans">Lundi: 9h - 13h</p>
         <p className="p__opensans">Mardi - Vendredi: 9h - 17h</p>
       </div>
-      <a href="#footer" className="custom__button" style={{ marginTop: '2rem' }}>Laissez un message</a>
+      <a href="#newsletter" className="custom__button" style={{ marginTop: '2rem' }}>Laissez un message</a>
     </div>
 
     <div className="app__wrapper_img">
