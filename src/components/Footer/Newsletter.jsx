@@ -12,7 +12,7 @@ const Newsletter = () => (
     </div>
     <form action="">
       <div className="app__newsletter-input flex__center">
-
+        <input type="name" placeholder="Indiquez votre nom" />
         <input type="email" placeholder="Indiquez votre adresse email" />
         <textarea name="message" rows="7" placeholder="Écrivez votre message ici" required />
         <button type="submit" className="custom__button">Envoyer</button>
