@@ -21,7 +21,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center" id="gallery">
       <div className="app__gallery-content">
         <SubHeading title="Inspirations" />
         <h1 className="headtext__cormorant">L&apos;Art de Construire</h1>

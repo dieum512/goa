@@ -14,10 +14,10 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#home">Home</a></li>
+        <li className="p__opensans"><a href="#about">À propos</a></li>
+        <li className="p__opensans"><a href="#services">Services</a></li>
+        <li className="p__opensans"><a href="#gallery">Gallery</a></li>
+        <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="app__navbar-smallscreen">
@@ -28,11 +28,11 @@ const Navbar = () => {
           <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
 
           <ul className="app__navbar-smallscreen-links">
-            <li className="p__opensans"><a href="#home">Home</a></li>
-            <li className="p__opensans"><a href="#about">About</a></li>
-            <li className="p__opensans"><a href="#menu">Menu</a></li>
-            <li className="p__opensans"><a href="#home">Home</a></li>
-            <li className="p__opensans"><a href="#home">Home</a></li>
+            <li className="p__opensans"><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
+            <li className="p__opensans"><a href="#about" onClick={() => setToggleMenu(false)}>À propos</a></li>
+            <li className="p__opensans"><a href="#services" onClick={() => setToggleMenu(false)}>Services</a></li>
+            <li className="p__opensans"><a href="#gallery" onClick={() => setToggleMenu(false)}>Gallery</a></li>
+            <li className="p__opensans"><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
           </ul>
         </div>
         )}
